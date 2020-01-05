@@ -1,0 +1,5 @@
+# JetBrains CLion - Project Files
+/.idea/
+
+# CMake - Build Output
+/cmake-build-debug-*/
