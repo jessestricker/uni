@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_library(uni
-        src/code_point.cpp)
+        include/uni/code_point.hpp src/code_point.cpp)
 target_include_directories(uni PRIVATE include/uni)
 target_include_directories(uni INTERFACE include)
 
